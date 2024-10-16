@@ -19,7 +19,10 @@ done = False;
 
 total_reward = 0.0;
 
-while not done:
+# Number of steps you run the agent for 
+num_steps = 1500
+
+for step in range(num_steps):
     # time.sleep(0.1)
 
     # Sample a random action from the entire action space
